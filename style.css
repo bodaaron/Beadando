@@ -3,7 +3,7 @@ li {
   }
 
 body{
-    background-image: urlhatter.jpg);
+    background-image: url(hatter.jpg);
     background-repeat: no-repeat;
     background-size:cover;
 }
