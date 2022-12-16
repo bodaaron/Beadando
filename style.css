@@ -52,5 +52,6 @@ header{
     margin-left: 300px;
     margin-right: 300px;
     font-family: cursive;
-    text-align: left;
+    text-align: justify;
+    text-indent: 50px;
 }
