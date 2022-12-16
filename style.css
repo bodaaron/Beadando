@@ -1,6 +1,28 @@
+ul {
+    list-style-type: none;
+    margin-left: 300px;
+    margin-right: 300px;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkblue;
+}
+  
 li {
-    display: inline;
-  }
+    float: left;
+}
+  
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+  
+li a:hover{
+    background-color: lightskyblue ;
+    color: black;
+}
 
 body{
     background-image: url(hatter.jpg);
@@ -10,13 +32,17 @@ body{
 }
 h1{
     text-align: center;
-    color: red;
+    color: lightcoral;
 }
 header{
-    background-color: bisque;
     padding: 30px;
     margin-left: 300px;
     margin-right: 300px;
     border-style: ridge;
     border-color: black;
+    background-image: url(headerkep.jpg);
+    background-size: 20%;
+    background-repeat: repeat;
+    
 }
+/*overlay fade*/
