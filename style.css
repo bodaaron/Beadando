@@ -48,7 +48,9 @@ header{
 /*overlay fade*/
 #tartalom{
     border: 5px outset black;
-    background-color: cornflowerblue;
+    background-color: /*rgba(100, 149, 237, 0.9)*/cornflowerblue;
     margin-left: 300px;
     margin-right: 300px;
+    font-family: cursive;
+    text-align: left;
 }
