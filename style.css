@@ -72,6 +72,19 @@ table, tr, td{
     width: 270px;
     border: 5px solid black;
 }
+.kep2{
+    float: right;
+    height: 320px;
+    width: 280px;
+    border: 5px solid black;
+}
+.kep3{
+    float: left;
+    grid-row-start: span;
+    height: 380px;
+    width: 270px;
+    border: 5px solid black;
+}
 footer {
     display: flex;
     justify-content: center;
