@@ -106,3 +106,6 @@ h4{
 .muvei {
     text-align: center;
 }
+[title="Petőfi"]{
+    border: 2px solid black;
+}
