@@ -1,10 +1,22 @@
+:root{
+    --darkblue: #00008b;
+    --lightskyblue: #87cefa;
+    --white: #FFFFFF;
+    --black: #000000;
+    --green: #008000;
+    --crimson: #DC143C;
+    --orange: #ff8000;
+    --darkgray: #A9A9A9;
+    --300px: 300px;
+    --100px: 100px;
+}
+
 nav ul {
     list-style-type: none;
-    margin-left: 300px;
-    margin-right: 300px;
-    padding: 0;
+    margin-left: var(--300px);
+    margin-right: var(--300px);
     overflow: hidden;
-    background-color: darkblue;
+    background-color: var(--darkblue);
 }
   
 li {
@@ -13,15 +25,15 @@ li {
   
 li a {
     display: block;
-    color: white;
+    color: var(--white);
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
 }
   
 li a:hover{
-    background-color: lightskyblue ;
-    color: black;
+    background-color: var(--lightskyblue) ;
+    color: var(--black);
 }
 
 body{
@@ -32,70 +44,52 @@ body{
 }
 h1{
     text-align: center;
-    color: darkblue;
+    color: var(--darkblue);
 }
 header{
-    padding: 100px;
-    margin-left: 300px;
-    margin-right: 300px;
+    padding: var(--100px);
+    margin-left: var(--300px);
+    margin-right: var(--300px);
     border-style: ridge;
-    border-color: black;
+    border-color: var(--black);
     background-image: url(headerkep.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: 15%;
 }
 #tartalom{
-    border: 5px outset black;
+    border: 5px outset var(--black);
     background-color: /*rgba(100, 149, 237, 0.9)*/cornflowerblue;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: var(--300px);
+    margin-right: var(--300px);
     font-family: cursive;
     text-align: justify;
     padding: 0px 10px 0px 10px; 
 }
 section a:link{
-    color: green;
+    color: var(--green);
 }
 section a:visited{
-    color: crimson;
+    color: var(--crimson);
 }
 table, tr, td{
-    border:1px solid black;
-    background-color: #ff8000;
-    color: white;
-}
-.kep1{
-    float: left;
-    height: 380px;
-    width: 270px;
-    border: 5px solid black;
-}
-.kep2{
-    float: right;
-    height: 320px;
-    width: 280px;
-    border: 5px solid black;
-}
-.kep3{
-    float: left;
-    height: 380px;
-    width: 270px;
-    border: 5px solid black;
+    border:1px solid var(--black);
+    background-color: var(--orange);
+    color: var(--white);
 }
 footer {
     display: flex;
     justify-content: center;
     padding: 5px;
-    background-color: darkgray;
-    color: #fff;
+    background-color: var(--darkgray);
+    color: var(--white);
     margin-top: 10px;
-    border: 5px solid black;
+    border: 5px solid var(--black);
 }
 .elrend{
     display: flex;
     align-items: center;
-    justify-content: center
+    justify-content: center;
 }
 h4{
     text-align: center;
