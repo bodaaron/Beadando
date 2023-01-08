@@ -8,22 +8,23 @@
     --crimson: #DC143C;
     --orange: #ff8000;
     --darkgray: #A9A9A9;
-    --300px: 300px;
-    --100px: 100px;
-    --14px: 14px;
-    --16px: 16px;
-    --10px: 10px;
-    --5px: 5px;
-    --1px: 1px;
-    --0px: 0px;
-    --100: 100%;
-    --15: 15%;
+    --haromszaz: 300px;
+    --szaz: 100px;
+    --tizennegy: 14px;
+    --tizenhat: 16px;
+    --tiz: 10px;
+    --ot: 5px;
+    --ketto: 2px;
+    --egy: 1px;
+    --nulla: 0px;
+    --szazalek1: 100%;
+    --szazalek2: 15%;
 }
 
 nav ul {
     list-style-type: none;
-    margin-left: var(--300px);
-    margin-right: var(--300px);
+    margin-left: var(--haromszaz);
+    margin-right: var(--haromszaz);
     overflow: hidden;
     background-color: var(--darkblue);
 }
@@ -36,7 +37,7 @@ li a {
     display: block;
     color: var(--white);
     text-align: center;
-    padding: var(--14px) var(--16px);
+    padding: var(--tizennegy) var(--tizenhat);
     text-decoration: none;
 }
   
@@ -56,24 +57,24 @@ h1{
     color: var(--darkblue);
 }
 header{
-    padding: var(--100px);
-    margin-left: var(--300px);
-    margin-right: var(--300px);
+    padding: var(--szaz);
+    margin-left: var(--haromszaz);
+    margin-right: var(--haromszaz);
     border-style: ridge;
     border-color: var(--black);
     background-image: url(headerkep.jpg);
-    background-size: var(--100);
+    background-size: var(--szazalek1);
     background-repeat: no-repeat;
-    background-position: var(--15);
+    background-position: var(--szazalek2);
 }
 #tartalom{
-    border: var(--5px) outset var(--black);
+    border: var(--ot) outset var(--black);
     background-color: var(--cornflowerblue);
-    margin-left: var(--300px);
-    margin-right: var(--300px);
+    margin-left: var(--haromszaz);
+    margin-right: var(--haromszaz);
     font-family: cursive;
     text-align: justify;
-    padding: var(--0px) var(--10px) var(--0px) var(--10px); 
+    padding: var(--nulla) var(--tiz) var(--nulla) var(--tiz); 
 }
 section a:link{
     color: var(--green);
@@ -82,18 +83,18 @@ section a:visited{
     color: var(--crimson);
 }
 table, tr, td{
-    border:var(--1px) solid var(--black);
+    border:var(--egy) solid var(--black);
     background-color: var(--orange);
     color: var(--white);
 }
 footer {
     display: flex;
     justify-content: center;
-    padding: var(--5px);
+    padding: var(--ot);
     background-color: var(--darkgray);
     color: var(--white);
-    margin-top: var(--10px);
-    border: var(--5px) solid var(--black);
+    margin-top: var(--tiz);
+    border: var(--ot) solid var(--black);
 }
 .elrend{
     display: flex;
@@ -107,5 +108,5 @@ h4{
     text-align: center;
 }
 [title="Petőfi"]{
-    border: 2px solid black;
+    border: var(--ketto) solid black;
 }
